@@ -1,6 +1,6 @@
 
 {
-    "name": "room0",
+    "name": "test_room_1",
     "id": "6ef85c32-bd21-4b37-9623-2a5e956b9fc4",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -43,7 +43,7 @@
             "id": "9fcd1768-14d9-447f-b8ff-6b0e4db19fb7",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4278190080 },
+            "colour": { "Value": 4294967295 },
             "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
@@ -62,7 +62,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "22d54461-57dd-4e4f-b30e-801b3fa99f55",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -87,12 +87,12 @@
     },
     "roomSettings":     {
         "id": "0d2ddeca-9f74-4bcc-9f57-e4b49b6c09f2",
-        "Height": 768,
+        "Height": 342,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 1024
+        "Width": 608
     },
     "mvc": "1.0",
     "views": [

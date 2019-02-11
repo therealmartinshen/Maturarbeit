@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06139149-b89d-4afd-a886-acb6900d03d1",
+            "Value": {
+                "id": "f0df17aa-0dcd-4d9f-be28-d85065a86edc",
+                "resourcePath": "views\\06139149-b89d-4afd-a886-acb6900d03d1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "07602f98-19f2-4567-9fb9-db0f21bb1a97",
             "Value": {
                 "id": "99c7c84a-f446-4db5-a66d-a627e0f0405b",
@@ -79,6 +87,14 @@
             }
         },
         {
+            "Key": "22d54461-57dd-4e4f-b30e-801b3fa99f55",
+            "Value": {
+                "id": "bdb0b639-7f1f-4f83-8ed2-e9e027afee44",
+                "resourcePath": "sprites\\Background_test_1\\Background_test_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f68906f-81ae-4fc7-921a-249b16929fad",
             "Value": {
                 "id": "7cf197f1-9c0e-4e3f-96db-e8380dcd476e",
@@ -122,7 +138,7 @@
             "Key": "6ef85c32-bd21-4b37-9623-2a5e956b9fc4",
             "Value": {
                 "id": "b0c2d1f9-2423-401d-8618-b5918eb67a3f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\test_room_1\\test_room_1.yy",
                 "resourceType": "GMRoom"
             }
         },
