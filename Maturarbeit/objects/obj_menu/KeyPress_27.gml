@@ -20,40 +20,46 @@ if(!(isMenu) && !(isStart))
 	/// @DnDVersion : 1
 	/// @DnDHash : 67D98D59
 	/// @DnDParent : 35AC971D
-	/// @DnDArgument : "xpos" "room_width/2"
-	/// @DnDArgument : "ypos" "room_height - offset"
+	/// @DnDArgument : "xpos" "view_wport[0] / 2"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "view_hport[0] / 2 + offset"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "var" "button1"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "obj_button"
 	/// @DnDArgument : "layer" ""Menu_Items""
 	/// @DnDSaveInfo : "objectid" "8d6428ac-f7a0-474d-be2e-ddf46283eebf"
-	var button1 = instance_create_layer(room_width/2, room_height - offset, "Menu_Items", obj_button);
+	var button1 = instance_create_layer(x + view_wport[0] / 2, y + view_hport[0] / 2 + offset, "Menu_Items", obj_button);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 4E6800EE
 	/// @DnDParent : 35AC971D
-	/// @DnDArgument : "xpos" "room_width/2"
-	/// @DnDArgument : "ypos" "room_height/3 * 2 - offset"
+	/// @DnDArgument : "xpos" "view_wport[0] / 2"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "view_hport[0] / 2 "
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "var" "button2"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "obj_button"
 	/// @DnDArgument : "layer" ""Menu_Items""
 	/// @DnDSaveInfo : "objectid" "8d6428ac-f7a0-474d-be2e-ddf46283eebf"
-	var button2 = instance_create_layer(room_width/2, room_height/3 * 2 - offset, "Menu_Items", obj_button);
+	var button2 = instance_create_layer(x + view_wport[0] / 2, y + view_hport[0] / 2 , "Menu_Items", obj_button);
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 4BEC3C4F
 	/// @DnDParent : 35AC971D
-	/// @DnDArgument : "xpos" "room_width/2"
-	/// @DnDArgument : "ypos" "room_height/3 - offset"
+	/// @DnDArgument : "xpos" "view_wport[0] / 2"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "view_hport[0] / 2 - offset"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "var" "button3"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "objectid" "obj_button"
 	/// @DnDArgument : "layer" ""Menu_Items""
 	/// @DnDSaveInfo : "objectid" "8d6428ac-f7a0-474d-be2e-ddf46283eebf"
-	var button3 = instance_create_layer(room_width/2, room_height/3 - offset, "Menu_Items", obj_button);
+	var button3 = instance_create_layer(x + view_wport[0] / 2, y + view_hport[0] / 2 - offset, "Menu_Items", obj_button);
 
 	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
