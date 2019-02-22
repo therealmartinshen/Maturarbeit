@@ -9,7 +9,7 @@
         "7d6c888a-dc33-4914-b7a0-f6d4e322f434"
     ],
     "filterType": "GMSprite",
-    "folderName": "Menu",
+    "folderName": "Gui",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
