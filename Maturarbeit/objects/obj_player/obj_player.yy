@@ -8,7 +8,7 @@
             "id": "462dc1e6-6c08-4344-8b81-8b03543f16b9",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
@@ -25,11 +25,21 @@
             "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
         },
         {
-            "id": "b1b9305d-b356-4c59-8f32-4115c27c87d0",
+            "id": "83a5af16-7f47-44ce-84fa-281cafc4799b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "0faff304-61f1-4254-b96c-9be852ea81a9",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "c0a469b5-689a-452b-a320-6fe8aaac1b0b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
-            "collisionObjectId": "a931434b-02e6-4fee-b2a3-3baef7ea7fa8",
+            "collisionObjectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
@@ -80,8 +90,37 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
-    "solid": true,
+    "properties": [
+        {
+            "id": "2aa2cc75-7027-49fb-a89f-eded749c5299",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "3.5",
+            "varName": "walkspd",
+            "varType": 0
+        },
+        {
+            "id": "d759d9ff-c27e-48ea-ba5b-373bbde572dc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4.5",
+            "varName": "jumppow",
+            "varType": 0
+        }
+    ],
+    "solid": false,
     "spriteId": "9aaa6338-a369-4593-a93a-4826084a5b6b",
     "visible": true
 }

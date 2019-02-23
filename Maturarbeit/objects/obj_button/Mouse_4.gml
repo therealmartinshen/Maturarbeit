@@ -49,9 +49,9 @@ switch(l430712EC_0)
 		/// @DnDApplyTo : 34c7aac4-39bf-4544-be94-afc5cae5b2e7
 		/// @DnDParent : 06B30A68
 		/// @DnDArgument : "expr" "false"
-		/// @DnDArgument : "var" "isMenu"
-		with(obj_menu) {
-		isMenu = false;
+		/// @DnDArgument : "var" "global.isMenu"
+		with(obj_gui) {
+		global.isMenu = false;
 		
 		}
 		break;

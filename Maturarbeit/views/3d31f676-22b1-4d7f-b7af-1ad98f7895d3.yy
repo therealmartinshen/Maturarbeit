@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "3d31f676-22b1-4d7f-b7af-1ad98f7895d3",
     "children": [
-        "c4f28766-204c-4b74-9fcc-ffa4b7fb754b",
-        "a283e39e-84e8-41e5-a74a-b3e703973508",
-        "7d6c888a-dc33-4914-b7a0-f6d4e322f434"
+        "5e24c5b1-0a7e-49fb-baec-e3e80bfc4fae",
+        "37c63822-ce2e-4949-895c-b44fd2142dec"
     ],
     "filterType": "GMSprite",
     "folderName": "Gui",

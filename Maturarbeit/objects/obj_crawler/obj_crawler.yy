@@ -5,7 +5,7 @@
     "name": "obj_crawler",
     "eventList": [
         {
-            "id": "9e88f62a-e12e-487a-b513-b2657f680957",
+            "id": "3665383a-bc89-4873-908e-703b8ca17823",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -15,29 +15,39 @@
             "m_owner": "a931434b-02e6-4fee-b2a3-3baef7ea7fa8"
         },
         {
-            "id": "e804093e-4fb4-449d-9d96-815ae50a8563",
+            "id": "3aea4f87-8d21-4ece-8449-4c65f338dd2b",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "a931434b-02e6-4fee-b2a3-3baef7ea7fa8"
         },
         {
-            "id": "39439870-400a-4919-ac6e-389950e3bc7f",
+            "id": "4210b9c7-1cd0-4a95-ab27-39282a21745f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "a931434b-02e6-4fee-b2a3-3baef7ea7fa8"
+        },
+        {
+            "id": "e1095dc6-df8f-457d-9a25-fa0431398363",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 2,
+            "eventtype": 12,
             "m_owner": "a931434b-02e6-4fee-b2a3-3baef7ea7fa8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -51,7 +61,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "2f60874f-750b-4d07-b321-bbb99a143e4d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "xx",
+            "varType": 1
+        },
+        {
+            "id": "df2a1076-fdc0-491c-ab7a-1785eabcf74f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "tilemove",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "a28e0025-0c9f-4d66-be9b-31ace25b3211",
     "visible": true
