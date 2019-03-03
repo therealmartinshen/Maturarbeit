@@ -35,7 +35,7 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "walkspd",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "7d86d4fd-7b8d-417c-817a-b2754dd98819",
@@ -49,6 +49,20 @@
             "resourceFilter": 1023,
             "value": "0.34",
             "varName": "damage",
+            "varType": 0
+        },
+        {
+            "id": "433c2d30-6748-4a4b-9a19-2f43974d2745",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "32",
+            "varName": "tile",
             "varType": 0
         }
     ],

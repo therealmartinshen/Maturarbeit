@@ -1,9 +1,10 @@
-if (!global.isMenu){
+//Check if in Menu or if Controls are enabled.
+if (!global.isMenu && global.isControl){
 //variables
 var iscrouching = false;
 
-//crouch *must happen before horizontal movement, because of var iscrouching
-if (keyboard_check(vk_down) && place_meeting(x,y+1,obj_collisionmask))
+//crouch *must happen before horizontal movement, because of var iscrouching*
+if (keyboard_check(vk_down) && place_meeting(x,y+1,obj_collisionmask) && crouch)
 {
 	iscrouching = true;
 }
@@ -31,6 +32,22 @@ keyjump = keyboard_check(vk_space);
 if ((place_meeting(x,y+1,obj_collisionmask)) && (keyjump) && (!iscrouching))
 {
 	vsp = -jumppow;
+}
+
+//Hide behind bush
+var xx = instance_place(x,y,obj_bush);
+if (keyboard_check_pressed(vk_up) && place_meeting(x,y,obj_bush) && place_meeting(x,y+1,obj_collisionmask) && xx.hideable) 
+{
+	crouch = false;
+	depth = 850;
+	mask_index = spr_nocollision_ground;
+}
+else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)
+{
+	alarm_set(0,30);
+	depth = global.playerDepth;
+	mask_index = spr_player_idle;
+	y -= 1;
 }
 
 //collision

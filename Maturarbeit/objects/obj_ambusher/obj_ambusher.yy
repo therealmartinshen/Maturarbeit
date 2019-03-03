@@ -101,6 +101,20 @@
             "value": "60",
             "varName": "timeToReact",
             "varType": 0
+        },
+        {
+            "id": "6e1b2471-a47b-49a8-af9a-5a9ddb52461a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.2",
+            "varName": "decceleration",
+            "varType": 0
         }
     ],
     "solid": false,
