@@ -39,7 +39,7 @@ var xx = instance_place(x,y,obj_bush);
 if (keyboard_check_pressed(vk_up) && place_meeting(x,y,obj_bush) && place_meeting(x,y+1,obj_collisionmask) && xx.hideable) 
 {
 	crouch = false;
-	depth = 850;
+	depth = global.playerDepth + 150;
 	mask_index = spr_nocollision_ground;
 }
 else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)

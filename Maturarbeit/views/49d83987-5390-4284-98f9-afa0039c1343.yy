@@ -7,7 +7,7 @@
         "ca7c1530-2d1d-4684-9145-6a0cc362e60b"
     ],
     "filterType": "GMObject",
-    "folderName": "Traps",
+    "folderName": "Interactive Objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

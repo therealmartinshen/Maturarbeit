@@ -10,16 +10,20 @@
 //checking for player collision == true
 checkforPlayer = true;
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1E116E4A
+/// @DnDArgument : "xpos" "x"
+/// @DnDArgument : "ypos" "y"
+/// @DnDArgument : "var" "light"
+/// @DnDArgument : "objectid" "obj_guardian_searchlight"
+/// @DnDArgument : "layer" ""light""
+/// @DnDSaveInfo : "objectid" "a08d639c-2811-4f1a-9f5e-01e6b1e932c6"
+light = instance_create_layer(x, y, "light", obj_guardian_searchlight);
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 086A26C4
 /// @DnDArgument : "steps" "lighton * 60"
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, lighton * 60);
-
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
-/// @DnDHash : 44F89777
-/// @DnDArgument : "soundid" "sTest"
-/// @DnDSaveInfo : "soundid" "30ff8017-dcc6-43e9-a94d-f65f24e65b5f"
-audio_play_sound(sTest, 0, 0);
