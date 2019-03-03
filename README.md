@@ -7,5 +7,5 @@ https://forum.yoyogames.com/index.php?threads/pause-alarms.3640/ Alarm pausing c
 
 http://stevensplint.com/cool-lighting-with-gamemaker-studio-2/ Light functionalities. Not yet implemented. *obsolete*
 https://www.yoyogames.com/blog/476/quick-and-simple-lighting  Light functionalities. Not yet implemented. *obsolete*
-https://www.dropbox.com/s/i7iamxndkk23zjb/Ultimate%20Light%20System%20Documentation.pdf?dl=0 Light Engine Documentation.
+https://www.dropbox.com/s/i7iamxndkk23zjb/Ultimate%20Light%20System%20Documentation.pdf?dl=0 Light Engine
 https://marketplace.yoyogames.com/assets/7708/ultimate-light-system Bought Light engine here.
