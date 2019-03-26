@@ -1,2 +1,2 @@
-/// @description crouch ability delay after hiding in bush
+/// @description crouch ability delay
 crouch = true;

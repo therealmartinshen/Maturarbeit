@@ -1,44 +1,44 @@
 {
-    "id": "bb282d42-a305-41e5-8c11-01ef0552d2c1",
+    "id": "e735d9ef-6c7f-403c-82dd-dc655cd8db6d",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_mourner",
     "eventList": [
         {
-            "id": "1e476144-061e-4bcd-9c05-b2ac1ef43b54",
+            "id": "114234ad-0ab8-4621-a721-c74f1bba93d0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "bb282d42-a305-41e5-8c11-01ef0552d2c1"
+            "m_owner": "e735d9ef-6c7f-403c-82dd-dc655cd8db6d"
         },
         {
-            "id": "d291833a-fe7b-4b36-939e-4e38528c4ba2",
+            "id": "eae34e22-81a1-42ac-991a-ca245bb41c62",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "bb282d42-a305-41e5-8c11-01ef0552d2c1"
+            "m_owner": "e735d9ef-6c7f-403c-82dd-dc655cd8db6d"
         },
         {
-            "id": "871ea7a2-709b-4505-837d-64cb0c31a4a6",
+            "id": "c942dd12-85db-44ef-9869-51d9a34432be",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "bb282d42-a305-41e5-8c11-01ef0552d2c1"
+            "m_owner": "e735d9ef-6c7f-403c-82dd-dc655cd8db6d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "7b3add69-2482-4ee2-bec1-ae9c3cff3e15",
+            "id": "70ee197e-d7ac-4e07-9632-c25ccdb4f44b",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
@@ -46,7 +46,7 @@
             "value": "0"
         },
         {
-            "id": "df8a5992-10ae-457c-9ba1-3c924f1c6381",
+            "id": "46134117-5a12-4223-b222-3a9d04c46935",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
@@ -70,21 +70,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "e28f4ca9-817c-4ab7-a936-35c4062db49e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": -10,
-            "resourceFilter": 1023,
-            "value": "5",
-            "varName": "sightlinex",
-            "varType": 0
-        },
-        {
-            "id": "d79bbe3f-9133-467a-b543-214a8d562312",
+            "id": "b062e9e8-3876-44ec-94e8-0b6f692c8030",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -94,11 +80,25 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "2",
-            "varName": "sightliney",
-            "varType": 0
+            "varName": "bullet_interval",
+            "varType": 1
         },
         {
-            "id": "168cc88a-d0e7-4e82-ada9-189d268fd7dd",
+            "id": "a8bf07cb-66ee-4428-89db-17c6283db8c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 1,
+            "rangeMin": -1,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "direction",
+            "varType": 1
+        },
+        {
+            "id": "8467cfda-a442-4b4c-aa06-52436df082b0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -107,9 +107,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "30",
-            "varName": "timeToReact",
-            "varType": 1
+            "value": "4",
+            "varName": "tearspd",
+            "varType": 0
         }
     ],
     "solid": false,

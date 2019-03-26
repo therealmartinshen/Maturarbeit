@@ -1,25 +1,21 @@
-if (!global.isMenu){
-
-//alarm management
+if (!global.isMenu)
+{
+//ALARM MANAGEMENT
 if set = 0 set = 1;
-
-//gravity
+//GRAVITY
 vsp = vsp + global.grv;
-
-//horizontal
+//HORIZONTAL MOVEMENT
 hsp = xx * walkspd;
-
-//collision
+//COLLISION
 script_execute(scr_collision);
-
-//execution of Movement
+//MOVEMENT EXECUTION
 x += hsp;
 y += vsp;
 }
 
 else
 {
-//stopping alarm at current position
+	//STOPPING ALARMS AT CURRENT POSITION
 	if set = 1 hold_alarm[0]=alarm[0];
 	alarm[0]=hold_alarm[0];
 	set = 0;

@@ -1,4 +1,6 @@
+//change walking direction
 xx = -xx;
+//mirror waliking animation
 image_xscale = -sign(xx);
-
-alarm_set(0, tilemove * (32 / walkspd) + alarm_get(0));
+//reset Alarm 0
+alarm_set(0, tilemove * (tile / walkspd));

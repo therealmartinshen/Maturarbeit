@@ -35,8 +35,25 @@
             "m_owner": "cb88471c-0cf4-4d8e-814d-a32b60aa3206"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
+    "maskSpriteId": "0a0a2797-dd79-4864-9797-7f50aa5fc7a3",
+    "overriddenProperties": [
+        {
+            "id": "a7104563-5ccf-40dc-8591-a60b4426c59a",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
+            "propertyId": "df211029-cb1d-4342-8e0d-0e1c3702c82b",
+            "value": "5"
+        },
+        {
+            "id": "0a3d8fbc-6724-4f3b-8a48-ad8d234a3dec",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
+            "propertyId": "b81d6bfa-11a6-4460-8631-509953d0814f",
+            "value": "$FFB2B200"
+        }
+    ],
     "parentObjectId": "554c7ae1-ce9e-4dcd-b03c-3fc06f694594",
     "persistent": false,
     "physicsAngularDamping": 0.1,
@@ -55,6 +72,6 @@
         
     ],
     "solid": false,
-    "spriteId": "0a0a2797-dd79-4864-9797-7f50aa5fc7a3",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
