@@ -1,8 +1,8 @@
 {
-    "id": "e835e6a9-c01f-4970-9d5f-c2d558b3b0fe",
+    "id": "7ebcae03-f08e-4df4-8a30-2e11274148b1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_collisionmask",
+    "name": "obj_spikes",
     "eventList": [
         
     ],
@@ -23,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "4cbae517-2cbb-4b25-bc88-6f484d018ae3",
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
