@@ -8,7 +8,7 @@ if (!active)
 	//activate second check
 	if (set = 0 && collision_line(x - sightlineR * tile, y, x + sightlineR * tile, y, obj_player, false, true))
 	{
-		alarm_set(0,timeToReact);
+		alarm_set(0,timeToReact * room_speed);
 		//set ensures that this command is only called once during the alarm countdown
 		set = 1;
 	}

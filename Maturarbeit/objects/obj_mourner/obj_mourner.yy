@@ -46,12 +46,12 @@
             "value": "0"
         },
         {
-            "id": "46134117-5a12-4223-b222-3a9d04c46935",
+            "id": "6fa2ea37-577b-441b-8948-006d30d3c5dc",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
             "propertyId": "7d86d4fd-7b8d-417c-817a-b2754dd98819",
-            "value": "0.5"
+            "value": "0.25"
         }
     ],
     "parentObjectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",

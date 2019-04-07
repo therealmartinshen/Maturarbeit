@@ -11,5 +11,5 @@ instance_destroy(light);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 6891DD5C
-/// @DnDArgument : "steps" "lightoff * 60"
-alarm_set(0, lightoff * 60);
+/// @DnDArgument : "steps" "lightoff * room_speed"
+alarm_set(0, lightoff * room_speed);

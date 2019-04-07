@@ -53,6 +53,56 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "943fd904-fc56-4c0c-92ff-358d7809f9a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "18676dd5-e99f-46fe-bb68-0a5b073dd4c1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "a7a0a21b-6dd0-4f4f-aedf-7dced84fb9ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "c0584d30-5ac4-4d3a-945e-e0c4b8546129",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 2,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
+        },
+        {
+            "id": "a30161b3-1153-4328-9a2d-eb6b2dbdee11",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 2,
+            "m_owner": "34ae6911-2047-4645-91c0-20f70a607010"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -111,7 +161,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3.5",
+            "value": "3.7",
             "varName": "walkspd",
             "varType": 0
         },
@@ -125,7 +175,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4.5",
+            "value": "4.9",
             "varName": "jumppow",
             "varType": 0
         }

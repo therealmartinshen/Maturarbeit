@@ -24,6 +24,6 @@ light = instance_create_layer(x, y, "light", obj_guardian_searchlight);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 086A26C4
-/// @DnDArgument : "steps" "lighton * 60"
+/// @DnDArgument : "steps" "lighton * room_speed"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, lighton * 60);
+alarm_set(1, lighton * room_speed);

@@ -27,5 +27,5 @@ tear.t_speed = tearspd;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 749BDC51
-/// @DnDArgument : "steps" "bullet_interval * 60"
-alarm_set(0, bullet_interval * 60);
+/// @DnDArgument : "steps" "bullet_interval * room_speed"
+alarm_set(0, bullet_interval * room_speed);

@@ -10,26 +10,41 @@ if (keyboard_check(vk_down) && place_meeting(x,y+1,obj_collisionmask) && crouch)
 	iscrouching = true;
 }
 
+//GRAVITY
+vsp = vsp + global.grv;
+if (vsp > 4) vsp = 4;
+
 //HORIZONTAL MOVEMENT
 keyleft = keyboard_check(vk_left);
 keyright = keyboard_check(vk_right);
 var move = keyright - keyleft;
 //horizontal speed if player on ground and not crouching
-if (place_meeting(x,y+1,obj_collisionmask) && !iscrouching) hsp = move * walkspd;
+if (place_meeting(x,y+1,obj_collisionmask) && !iscrouching) 
+hsp = move * walkspd;
 //horizontal speed if player is crouching
-else if (iscrouching == true) hsp = move * walkspd * 0.4;
+else if (iscrouching == true) 
+hsp = move * walkspd * 0.4;
 //horizontal speed when in air
-else hsp = move * walkspd * 0.65;
-
-//GRAVITY
-vsp = vsp + global.grv;
+else 
+hsp = move * walkspd * 0.8;
 
 //JUMP
-//only jump if not crouching and on ground
-if ((place_meeting(x,y+1,obj_collisionmask)) && (keyboard_check(vk_space)) && (!iscrouching))
+if (place_meeting(x-move*5,y+1,obj_collisionmask) && keyboard_check_pressed(vk_space) && !iscrouching)
 {
 	vsp = -jumppow;
 }
+//WALL JUMP
+var o = instance_place(x+move,bbox_bottom-16,obj_collisionmask);
+if (o != noone && keyboard_check_pressed(vk_space) && !wall)
+{
+	if (o.jump_enabled) 
+	{
+		vsp = -jumppow;
+		wall = true;
+		alarm_set(1,room_speed*0.5);
+	}
+}
+
 
 //HIDE IN BUSH
 //get the instance of the bush in collision
@@ -48,7 +63,7 @@ if (keyboard_check_pressed(vk_up) && xx != noone && place_meeting(x,y+1,obj_coll
 else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)
 {
 	//crouch cooldown after exiting bush, so that player does not crouch immediately after exiting the bush
-	alarm_set(0,30);
+	alarm_set(0,room_speed*0.5);
 	//change depth back to normal
 	depth = global.playerDepth;
 	//add coliision

@@ -72,8 +72,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "45",
+            "value": "40",
             "varName": "camera_size",
+            "varType": 0
+        },
+        {
+            "id": "9b4af981-ba4b-4eba-bb1d-1fe750cf69cd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.15",
+            "varName": "grv",
             "varType": 0
         }
     ],

@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "-1",
             "varName": "xx",
             "varType": 1
         },
@@ -79,20 +79,6 @@
             "value": "5",
             "varName": "tilemove",
             "varType": 0
-        },
-        {
-            "id": "2dab3274-c48a-4cc2-a31d-bebf84ba283f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "spr_crawler",
-            "varName": "type",
-            "varType": 5
         }
     ],
     "solid": false,

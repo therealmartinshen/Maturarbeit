@@ -1,2 +1,2 @@
-/// @description crouch ability delay
+/// @description Crouch ability delay
 crouch = true;
