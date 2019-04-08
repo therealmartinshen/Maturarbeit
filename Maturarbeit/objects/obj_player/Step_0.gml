@@ -3,6 +3,12 @@ if (!global.isMenu && global.isControl){
 //VARIABLES
 var iscrouching = false;
 
+//FAIL STATE
+if (global.playerHealthOffset == 0)
+{
+	//game_end();
+}
+
 //CROUCH
 //must happen before horizontal movement, because of 'var iscrouching'
 if (keyboard_check(vk_down) && place_meeting(x,y+1,obj_collisionmask) && crouch)
@@ -29,15 +35,24 @@ else
 hsp = move * walkspd * 0.8;
 
 //JUMP
-if (place_meeting(x-move*5,y+1,obj_collisionmask) && keyboard_check_pressed(vk_space) && !iscrouching)
+if (place_meeting(x,y+1,obj_collisionmask) && keyboard_check_pressed(vk_space) && !iscrouching)
 {
 	vsp = -jumppow;
 }
+
+
 //WALL JUMP
-var o = instance_place(x+move,bbox_bottom-16,obj_collisionmask);
-if (o != noone && keyboard_check_pressed(vk_space) && !wall)
+var o = instance_place(x+3,bbox_bottom-32,obj_collisionmask);
+var p = instance_place(x-3,bbox_bottom-32,obj_collisionmask);
+if (keyboard_check_pressed(vk_space) && !wall)
 {
-	if (o.jump_enabled) 
+	if (o != noone && o.jump_enabled) 
+	{
+		vsp = -jumppow;
+		wall = true;
+		alarm_set(1,room_speed*0.5);
+	}
+	if (p != noone && p.jump_enabled) 
 	{
 		vsp = -jumppow;
 		wall = true;
@@ -55,9 +70,9 @@ if (keyboard_check_pressed(vk_up) && xx != noone && place_meeting(x,y+1,obj_coll
 	//crouch must exist in order for crouch ability delay (Alarm 0) to function.
 	crouch = false;
 	//increase depth so Player appears behind bush
-	depth = global.playerDepth + 150;
-	//remove collision
-	mask_index = spr_nocollision_ground;
+	depth = layer_get_depth("NPC")+50;
+	//no damage
+	hurtable = false;
 }
 //exit hiding
 else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)
@@ -66,10 +81,10 @@ else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)
 	alarm_set(0,room_speed*0.5);
 	//change depth back to normal
 	depth = global.playerDepth;
-	//add coliision
-	mask_index = spr_player_idle;
 	//go one pixel up in order to prevent player being stuck in ground
 	y -= 1;
+	//damage
+	hurtable = true;
 }
 
 //COLLISION
@@ -84,6 +99,7 @@ if(hsp < 0 && iscrouching == false) {sprite_index = spr_player_run; image_xscale
 if(hsp == 0 && iscrouching == true) sprite_index = spr_player_crouch;
 if(hsp > 0 && iscrouching == true) {sprite_index = spr_player_crouch; image_xscale = 1;}
 if(hsp < 0 && iscrouching == true) {sprite_index = spr_player_crouch; image_xscale = -1;}
+
 
 //MOVEMENT EXECUTION
 x += hsp;

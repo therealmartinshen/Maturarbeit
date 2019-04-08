@@ -81,7 +81,7 @@
             "resourceFilter": 1023,
             "value": "2",
             "varName": "bullet_interval",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "a8bf07cb-66ee-4428-89db-17c6283db8c5",
@@ -109,6 +109,20 @@
             "resourceFilter": 1023,
             "value": "4",
             "varName": "tearspd",
+            "varType": 0
+        },
+        {
+            "id": "5c7f6f6e-2e00-4793-81bd-dc0edbbe915c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2",
+            "varName": "offset",
             "varType": 0
         }
     ],

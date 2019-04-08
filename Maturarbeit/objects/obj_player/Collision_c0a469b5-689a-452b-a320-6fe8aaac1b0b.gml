@@ -21,4 +21,12 @@ if(hurtable == true)
 	/// @DnDArgument : "steps" "room_speed * 0.15"
 	/// @DnDArgument : "alarm" "2"
 	alarm_set(2, room_speed * 0.15);
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 38BAE03B
+	/// @DnDParent : 5E940B7C
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "set1"
+	set1 = false;
 }
