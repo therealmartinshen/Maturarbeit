@@ -44,14 +44,6 @@
             "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
             "propertyId": "d9fdba21-af9e-45ed-8bab-00ad1b956366",
             "value": "0"
-        },
-        {
-            "id": "6fa2ea37-577b-441b-8948-006d30d3c5dc",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
-            "propertyId": "7d86d4fd-7b8d-417c-817a-b2754dd98819",
-            "value": "0.25"
         }
     ],
     "parentObjectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
@@ -121,7 +113,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "1",
             "varName": "offset",
             "varType": 0
         }

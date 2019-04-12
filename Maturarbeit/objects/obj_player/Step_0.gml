@@ -81,11 +81,11 @@ else if (keyboard_check_pressed(vk_down) && depth > global.playerDepth)
 	alarm_set(0,room_speed*0.5);
 	//change depth back to normal
 	depth = global.playerDepth;
-	//go one pixel up in order to prevent player being stuck in ground
-	y -= 1;
 	//damage
 	hurtable = true;
 }
+//remove control while behind bush
+if (depth != global.playerDepth) {hsp = 0; vsp = 0;}
 
 //COLLISION
 script_execute(scr_collision);

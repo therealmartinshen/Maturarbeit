@@ -47,16 +47,9 @@
     ],
     "maskSpriteId": "22ef000e-ee2d-40e1-a693-05ddeb0f1244",
     "overriddenProperties": [
-        {
-            "id": "d85a090c-4fe3-4c44-8289-f4a316f57bba",
-            "modelName": "GMOverriddenProperty",
-            "mvc": "1.0",
-            "objectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
-            "propertyId": "d9fdba21-af9e-45ed-8bab-00ad1b956366",
-            "value": "0"
-        }
+        
     ],
-    "parentObjectId": "cc12ba46-0d06-41ff-ac20-882d0bbf2c44",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -71,6 +64,20 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
+        {
+            "id": "66b4d44f-a160-4a85-ae3b-a330f2518d08",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "32",
+            "varName": "tile",
+            "varType": 0
+        },
         {
             "id": "2437fbb1-131d-4269-ad11-0e3897677de6",
             "modelName": "GMObjectProperty",
@@ -111,6 +118,20 @@
             "resourceFilter": 1023,
             "value": "3",
             "varName": "lighton",
+            "varType": 0
+        },
+        {
+            "id": "e9e9fa63-7fa1-4bb2-ac49-81b2c7eab440",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "start",
             "varType": 0
         }
     ],
