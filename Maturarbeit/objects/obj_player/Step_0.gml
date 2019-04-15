@@ -100,7 +100,6 @@ if(hsp == 0 && iscrouching == true) sprite_index = spr_player_crouch;
 if(hsp > 0 && iscrouching == true) {sprite_index = spr_player_crouch; image_xscale = 1;}
 if(hsp < 0 && iscrouching == true) {sprite_index = spr_player_crouch; image_xscale = -1;}
 
-
 //MOVEMENT EXECUTION
 x += hsp;
 y += vsp;
