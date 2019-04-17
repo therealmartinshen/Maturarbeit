@@ -6,7 +6,7 @@ var iscrouching = false;
 //FAIL STATE
 if (global.playerHealthOffset == 0)
 {
-	//game_end();
+	game_end();
 }
 
 //CROUCH
